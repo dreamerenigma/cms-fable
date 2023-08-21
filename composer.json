@@ -1,0 +1,20 @@
+{
+    "name": "verc/cms.loc",
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Cms\\": "cms",
+            "Admin\\": "admin",
+            "Engine\\DI\\": "engine/DI/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey",
+            "email": "Hitmanki@yandex.ru"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
